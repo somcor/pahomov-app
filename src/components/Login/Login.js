@@ -107,7 +107,7 @@ class Login extends React.Component {
               </ValidatorForm>
               <div className="form-links">
                 <div className="form-links-col-1"><a href="">Забыли пароль?</a></div>
-                <div className="form-links-col-2"><a href="">Ещё нет аккаунта?</a><a href="">Регистрация</a></div>
+                <div className="form-links-col-2"><a href="">Ещё нет аккаунта? Регистрация</a></div>
               </div>
               <div className="copyright">Copyright© Ваш сайт 2019.</div>
             </div>
