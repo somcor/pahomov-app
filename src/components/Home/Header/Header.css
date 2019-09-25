@@ -1,0 +1,11 @@
+.h1{
+    font-family: 'IBM Plex Sans', sans-serif;
+    flex: 1 1 100%;
+    color: #C6213C;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #E5E5E5;
+}

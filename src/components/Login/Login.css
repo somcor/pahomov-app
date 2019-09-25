@@ -1,0 +1,106 @@
+.form-wr{
+    margin-top: 15vh;
+    width: 380px;
+    text-align: center;
+}
+.form__icon{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    margin-bottom: 10px;
+    background: #E10050 url(../../images/lock-icon.png) no-repeat center / 16px;
+}
+.form__title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.87);
+    margin-bottom: 24px;
+}
+.form__field{
+    width: 100%;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
+.MuiInputLabel-root.Mui-focused{
+    color: #2196F3 !important;
+}
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: #2196F3 !important;
+}
+.MuiFormLabel-root.Mui-error {
+    color: #E10050 !important;
+}
+.MuiOutlinedInput-root.Mui-error .MuiOutlinedInput-notchedOutline {
+    border-color: #E10050 !important;
+    border-width: 2px;
+}
+.MuiFormHelperText-root.Mui-error {
+    color: #E10050 !important;
+}
+.MuiCheckbox-colorPrimary.Mui-checked:hover {
+    background-color: rgba(33, 150, 243, 0.1) !important;
+}
+.MuiCheckbox-colorPrimary.Mui-checked {
+    color: #2196F3 !important;
+}
+.MuiButton-containedPrimary {
+    width: 100%;
+    background-color: #2196F3 !important;
+}
+.MuiButton-label{
+    font-weight: 500 !important;
+    text-transform: initial !important;
+}
+.MuiButton-contained:hover {
+    background-color: #2F80ED !important;
+}
+.MuiFormControlLabel-root{
+    width: 100%;
+}
+.form-links{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 60px;
+}
+.form-links a{
+    font-size: 14px;
+    line-height: 18px;
+}
+.form-links-col-1{
+    text-align: left;
+}
+.form-links-col-2{
+    text-align: right;
+}
+.form-links-col-2 a{
+    margin-left: 10px;
+}
+.copyright{
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+@media (min-width: 240px) and (max-width: 479px) {
+    .form-wr{
+        margin-top: 13vh;
+        width: 320px;
+    }
+    .form-links-col-1{
+        flex: 0 0 45%;
+    }
+    .form-links-col-2{
+        flex: 0 0 55%;
+    }
+    .copyright{
+        width: 100%;
+        position: absolute;
+        bottom: 30px;
+        left: 0;
+    }
+}
